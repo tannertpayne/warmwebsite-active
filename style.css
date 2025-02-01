@@ -1,0 +1,49 @@
+/*
+$primary:       #c03221 !important;
+$secondary:     #feb648 !important;
+$danger:        #ffdd8e !important;
+$success:       #8d2418 !important;
+$dark:          #121212 !important;
+$light:         #dcdce7 !important;
+*/
+
+* {
+    color: #dcdce7;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #121212;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin-top: 1%;
+}
+
+#logo {
+    font-family: 'amaranth', sans-serif;
+}
+
+#header {
+    z-index: 1000;
+    margin-top: 0;
+}
+
+@media (max-width: 586px) {
+    .btn {
+        transform: scale(0.80); 
+    }
+    #logo {
+        margin-left: 12%; 
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-hover h1 {
+        padding-top: 10%;
+        padding-left: 5%; 
+    }
+}
+
